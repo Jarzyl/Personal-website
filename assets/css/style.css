@@ -1,0 +1,480 @@
+/* Font */
+
+body {
+  font-family: 'Gentium Book Basic', serif;
+  background-color: white;
+}
+
+.text-color {
+  color: grey;
+}
+
+/* Portfolio */
+
+.portfolio__img {
+  width: 375px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: '';
+}
+
+.swiper-button-prev {
+  left: -.5rem;
+}
+
+.swiper-button-next {
+  right: -.5rem;
+}
+
+
+/* SCROLL UP */
+
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -30%;
+  background-color: #0275d8;
+  opacity: .8;
+  padding: 0 .3rem;
+  border-radius: .4rem;
+  z-index: 10;
+  transition: .4s;
+}
+
+.scrollup:hover {
+  background-color: lightgray;
+}
+
+.scrollup__icon {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.show-scroll {
+  bottom: 2rem;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: .60rem;
+  background-color: lightgray;
+  /* border-radius: .5rem; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(147, 192, 240); 
+  /* border-radius: .3rem; */
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+  background-color: lightgray;
+} */
+
+/* Buttons */
+
+.button__icon {
+  font-size: 1.15rem;
+  transition: .3s;
+}
+
+.size {
+  margin: -0.45rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+
+/* Responsive font */
+
+@media (min-width: 576px) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 1.5rem;
+  }
+}
+
+/* Full size home */
+
+#Home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1800px) {
+  #Home {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 1400px) {
+  #Home {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1100px) {
+  #Home {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 992px) {
+  #Home {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #Home {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 576px) {
+  #Home {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 550px) {
+  #Home {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 450px) {
+  #Home {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 576px) {
+  #Home .col-sm-7 img {
+    width: 60%;
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  #Home {
+    height: 100vh;
+  }
+}
+
+/* Full size About */
+
+#Aboutme {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  #Aboutme {
+    height: 70vh;
+    padding: 7rem;
+  }
+}
+
+@media (max-width: 992px) {
+  #Aboutme {
+    height: 25vh;
+    padding-top: 0rem;
+  }
+}
+
+/* @media (min-width: 760px) {
+  #Aboutme {
+    height: 50vh;
+  }
+} */
+
+@media (max-width: 768px) {
+  #Aboutme {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 576px) {
+  #Aboutme {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 550px) {
+  #Aboutme {
+    padding-top: 25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #Aboutme .col-sm-7 img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 450px) {
+  #Aboutme {
+    padding-top: 10rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #Aboutme {
+    height: 70vh;
+    padding-top: 0rem;
+  }
+}
+
+@media (max-width: 350px) {
+  #Aboutme {
+    padding-top: 0rem;
+  }
+}
+
+/* Full size Education */
+
+#Education {
+  height: 90vh;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  #Education {
+    height: 100vh;
+    padding: 7rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  #Education {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 992px) {
+  #Education {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #Education {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 576px) {
+  #Education {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 550px) {
+  #Education {
+    padding-top: 12rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #Education {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 400px) {
+  #Education {
+    height: 50vh;
+    padding-top: 0rem;
+  }
+}
+
+@media (max-width: 350px) {
+  #Education {
+    padding-top: 0rem;
+  }
+}
+
+/* Full size Skills */
+
+#Skills {
+  height: 120vh;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1100px) {
+  #Skills {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 992px) {
+  #Skills {
+    height: 60vh;
+  }
+}
+
+/* @media (min-width: 760px) {
+  #Skills {
+    height: 80vh;
+    padding-top: 3.5rem;
+  }
+} */
+
+
+@media (max-width: 768px) {
+  #Skills {
+    height: 65vh;
+  }
+}
+
+@media (max-width: 576px) {
+  #Skills {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 550px) {
+  #Skills {
+    padding-top: 18rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #Skills {
+    height: 70vh;
+    padding-top: 10rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #Skills {
+    padding-top: 10rem;
+  }
+}
+
+@media (max-width: 350px) {
+  #Skills {
+    height: 90vh;
+    padding-top: 12rem;
+  }
+}
+
+/* Full size Portfolio */
+
+/* #Portfolio {
+  height: 110vh;
+  align-items: center;
+  justify-content: center;
+} */
+
+@media (max-width: 576px) {
+  .portfolio__img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .portfolio__img {
+    width: 60%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 1100px) {
+  #Portfolio {
+    padding-top: 7rem;
+  }
+}
+
+@media (max-width: 992px) {
+  #Portfolio {
+    padding-top: 0rem;
+  }
+}
+
+/* @media (min-width: 760px) {
+  #Portfolio {
+    padding-top: 3rem;
+  }
+} */
+
+
+@media (max-width: 550px) {
+  #Portfolio {
+    padding-top: 48rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #Portfolio {
+    padding-top: 27rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #Portfolio {
+    padding-top: 35rem;
+  }
+}
+
+@media (max-width: 350px) {
+  #Portfolio {
+    padding-top: 35rem;
+  }
+}
+
+/* photo profil */
+
+@media (max-width: 300px) {
+  .profil {
+    width: 80%;
+  }
+}
+
+/* section {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+} */
