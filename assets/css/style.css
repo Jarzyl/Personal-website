@@ -233,9 +233,10 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 570px) {
   #Aboutme {
     padding-top: 25rem;
+    padding-bottom: 10rem;
   }
 }
 
@@ -369,9 +370,10 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 570px) {
   #Skills {
     padding-top: 18rem;
+    padding-bottom: 15rem;
   }
 }
 
@@ -435,9 +437,9 @@ body {
 } */
 
 
-@media (max-width: 550px) {
+@media (max-width: 570px) {
   #Portfolio {
-    padding-top: 48rem;
+    padding-top: 33rem;
   }
 }
 
@@ -466,15 +468,3 @@ body {
     width: 80%;
   }
 }
-
-/* section {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-@media only screen and (max-width: 768px) {
-  section {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-} */
